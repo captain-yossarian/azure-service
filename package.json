@@ -2,17 +2,21 @@
   "name": "simple-express",
   "version": "1.0.0",
   "description": "express server with babel installed",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "nodemon lib/index.js --exec babel-node",
-    "build": "babel lib -d dist",
+    "init": "tsc --init",
+    "start": "tsc && nodemon dist/index.js --exec babel-node",
     "serve": "node dist/index.js"
   },
   "keywords": [],
   "author": "latif.s",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.27",
+    "cassandra-driver": "^4.5.2",
+    "express": "^4.16.3",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

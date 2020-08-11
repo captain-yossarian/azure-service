@@ -19,6 +19,11 @@ const insert = (id: number, photo_id: string, quantity: number) => {
 
 }
 
+app.get('/', (req, res) => {
+  res.send('ADD ROUTING');
+})
+
+
 app.get('/add', (req, res) => {
   console.log('GOTO /add')
 

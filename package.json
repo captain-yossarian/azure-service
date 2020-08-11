@@ -6,7 +6,7 @@
   "scripts": {
     "init": "tsc --init",
     "build": "tsc",
-    "start": "tsc && nodemon dist/index.js --exec babel-node",
+    "start": "tsc && nodemon build/index.js --exec babel-node",
     "serve": "node dist/index.js"
   },
   "keywords": [],

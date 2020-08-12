@@ -6,8 +6,7 @@
   "scripts": {
     "init": "tsc --init",
     "build": "tsc",
-    "start": "tsc && nodemon build/app.js --exec babel-node",
-    "serve": "node build/app.js"
+    "start": " node build/app.js --exec babel-node"
   },
   "keywords": [],
   "author": "latif.s",

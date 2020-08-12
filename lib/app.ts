@@ -20,7 +20,7 @@ const insert = (id: number, photo_id: string, quantity: number) => {
 }
 
 app.get('/', (req, res) => {
-  res.send('ADD ROUTING');
+  res.send('INDEX');
 })
 
 
@@ -31,7 +31,7 @@ app.get('/add', (req, res) => {
     console.log('connected')
   })
 
-  res.send('ADD ROUTING')
+  res.send('/ADD')
 
 
 })

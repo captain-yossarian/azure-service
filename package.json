@@ -2,11 +2,11 @@
   "name": "simple-express",
   "version": "1.0.0",
   "description": "express server with babel installed",
-  "main": "build/app.js",
+  "main": "./build/app.js",
   "scripts": {
     "init": "tsc --init",
     "build": "tsc",
-    "start": " node build/app.js --exec babel-node"
+    "start": " node ./build/app.js --exec babel-node"
   },
   "keywords": [],
   "author": "latif.s",
@@ -15,7 +15,7 @@
     "@types/express": "^4.17.7",
     "@types/node": "^14.0.27",
     "cassandra-driver": "^4.5.2",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "typescript": "^3.9.7"
   },
   "devDependencies": {

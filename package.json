@@ -2,11 +2,11 @@
   "name": "simple-express",
   "version": "1.0.0",
   "description": "express server with babel installed",
-  "main": "./build/app.js",
+  "main": "./app.js",
   "scripts": {
     "init": "tsc --init",
     "build": "tsc",
-    "start": " node ./build/app.js --exec babel-node"
+    "start": " node ./app.js --exec babel-node"
   },
   "keywords": [],
   "author": "latif.s",

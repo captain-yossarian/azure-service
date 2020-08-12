@@ -29,4 +29,5 @@ benchmarks/graphs
 
 lib/config.js
 
-build/*
+build
+.vscode

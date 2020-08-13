@@ -27,9 +27,9 @@ app.get('/', (req, res) => {
 app.get('/add', (req, res) => {
   console.log('GOTO /add')
 
-  client.connect(() => {
-    console.log('connected')
-  })
+  // client.connect(() => {
+  //   console.log('connected')
+  // })
 
   res.send('/ADD')
 

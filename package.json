@@ -4,9 +4,8 @@
   "description": "express server with babel installed",
   "main": "./build/app.js",
   "scripts": {
-    "init": "tsc --init",
     "build": "tsc",
-    "start": " node ./build/app.js"
+    "start": " node build/index.js"
   },
   "keywords": [],
   "author": "latif.s",
